@@ -1,0 +1,45 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        // 'red': '#f9530b',
+        malachite: "#1fdd47",
+        "slimy-green": "#169b32",
+        "electric-purple": "#b71fdd",
+        "violet-ryb": "#80169b",
+        primary: "#785fd3",
+        gamboge: "#dd981f",
+        theme: "#f9f9f9",
+        "gray-600": "#7b8489",
+        "gray-400": "#bdbdbd",
+        "gray-300": "#eaeaea",
+        black: "#000000",
+        "black-700": "#292929",
+        "black-500": "#7c7c7c",
+        "black-400": "#22251d",
+        "black-300": "#111111",
+        "black-200": "#1c2015",
+        "black-100": "#212e24",
+        "floral-white": "#fef9ef",
+        "mint-cream": "#f7fff7",
+        white: "#ffffff",
+        "white-600": "#f9f9f9",
+        "white-500": "#f4f4f4",
+        "white-200": "#ececec",
+        purple: "#785fd3",
+      },
+      fontFamily: {
+        avenir: "Avenir",
+        light: "Avenir Light",
+        medium: "Avenir Medium",
+        normal: "Avenir Normal",
+        bold: "Avenir Bold",
+        black: "Avenir Black",
+      },
+    },
+  },
+  plugins: [],
+};
